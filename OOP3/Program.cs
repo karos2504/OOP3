@@ -31,7 +31,6 @@ namespace OOP3
             var lsA = students.Where(x => x.Name.StartsWith("A")).ToList();
             lsA.ForEach(x => x.Show());
 
-            
             int totalAge = students.Sum(x => x.Age);
             Console.WriteLine($"\nTotal age of all students: {totalAge}");
 
